@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="24sp"
+        android:id="@+id/ctx_tv_24"
+        />
+    <item android:title="16sp"
+        android:id="@+id/ctx_tv_16"
+        />
+</menu>
