@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/my_textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="21211870119 施政" />
+
+    <TextView
+        android:id="@+id/tv2"
+        style="@style/my_textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv1"
+        android:layout_toLeftOf="@+id/tv1"
+        android:text="AlignBottomLeft" />
+
+    <TextView
+        android:id="@+id/tv3"
+        style="@style/my_textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Bottom Right" />
+
+    <TextView
+        android:id="@+id/tv4"
+        style="@style/my_textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv1"
+        android:text="Right" />
+
+    <TextView
+        android:id="@+id/tv5"
+        style="@style/my_textView_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv1"
+        android:text="AlignTop Right" />
+</RelativeLayout>

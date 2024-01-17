@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21211870119-sz" />
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="http://guolin.tech/api/china/17" />
+
+    <Button
+        android:id="@+id/bt_async"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Async mode" />
+
+    <Button
+        android:id="@+id/bt_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="block mode" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
